@@ -1,6 +1,15 @@
 Manifest-Version: 1.0
-Built-By: song-yeong-woo
-Build-Jdk: 16.0.1
+Bnd-LastModified: 1660654820063
+Build-Jdk-Spec: 18
+Bundle-ManifestVersion: 2
+Bundle-Name: maven-study
+Bundle-SymbolicName: javaStudy.maven.study
+Bundle-Version: 0.0.1
+Class-Path: libs/org.apache.felix.ipojo-1.12.1.jar libs/org.apache.felix
+ .ipojo.metadata-1.6.0.jar libs/asm-all-5.0.2.jar libs/org.apache.felix.
+ ipojo.annotations-1.12.1.jar
+Created-By: Apache Maven Bundle Plugin 5.1.8
+Export-Package: javaStudy.maven.maven_study;version="0.0.1"
 Main-Class: javaStudy.maven.maven_study.App
-Created-By: Maven Integration for Eclipse
-
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-6.3.1.202206071316

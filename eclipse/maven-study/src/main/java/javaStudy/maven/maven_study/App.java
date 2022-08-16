@@ -6,6 +6,7 @@ import javaStudy.maven.maven_study.thread.MyThread;
  * Hello world!
  *
  */
+  
 public class App 
 {
     public static void main( String[] args )

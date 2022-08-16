@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="javaStudy.maven.maven_study.AppTest" time="0.013" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="javaStudy.maven.maven_study.AppTest" time="0.016" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/song-yeong-woo/desktopfile/javaStudy/javaStudy/eclipse/maven-study/target/test-classes:/Users/song-yeong-woo/desktopfile/javaStudy/javaStudy/eclipse/maven-study/target/classes:/Users/song-yeong-woo/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/song-yeong-woo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/song-yeong-woo/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:"/>
+    <property name="java.class.path" value="/Users/song-yeong-woo/desktopfile/javaStudy/javaStudy/eclipse/maven-study/target/test-classes:/Users/song-yeong-woo/desktopfile/javaStudy/javaStudy/eclipse/maven-study/target/classes:/Users/song-yeong-woo/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/song-yeong-woo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/song-yeong-woo/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/Users/song-yeong-woo/.m2/repository/org/apache/felix/org.apache.felix.ipojo/1.12.1/org.apache.felix.ipojo-1.12.1.jar:/Users/song-yeong-woo/.m2/repository/org/apache/felix/org.apache.felix.ipojo.metadata/1.6.0/org.apache.felix.ipojo.metadata-1.6.0.jar:/Users/song-yeong-woo/.m2/repository/org/ow2/asm/asm-all/5.0.2/asm-all-5.0.2.jar:/Users/song-yeong-woo/.m2/repository/org/apache/felix/org.apache.felix.ipojo.annotations/1.12.1/org.apache.felix.ipojo.annotations-1.12.1.jar:"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
@@ -12,9 +12,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="KR"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/song-yeong-woo/desktopfile/javaStudy/javaStudy/eclipse/maven-study/target/surefire/surefirebooter8530237551091720655.jar /Users/song-yeong-woo/desktopfile/javaStudy/javaStudy/eclipse/maven-study/target/surefire 2022-08-11T21-25-13_874-jvmRun1 surefire7847393713839743374tmp surefire_01246412537223704827tmp"/>
+    <property name="sun.java.command" value="/Users/song-yeong-woo/desktopfile/javaStudy/javaStudy/eclipse/maven-study/target/surefire/surefirebooter-20220816220019414_3.jar /Users/song-yeong-woo/desktopfile/javaStudy/javaStudy/eclipse/maven-study/target/surefire 2022-08-16T22-00-19_191-jvmRun1 surefire-20220816220019414_1tmp surefire_0-20220816220019414_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/song-yeong-woo/desktopfile/javaStudy/javaStudy/eclipse/maven-study/target/test-classes:/Users/song-yeong-woo/desktopfile/javaStudy/javaStudy/eclipse/maven-study/target/classes:/Users/song-yeong-woo/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/song-yeong-woo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/song-yeong-woo/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/song-yeong-woo/desktopfile/javaStudy/javaStudy/eclipse/maven-study/target/test-classes:/Users/song-yeong-woo/desktopfile/javaStudy/javaStudy/eclipse/maven-study/target/classes:/Users/song-yeong-woo/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/song-yeong-woo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/song-yeong-woo/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/Users/song-yeong-woo/.m2/repository/org/apache/felix/org.apache.felix.ipojo/1.12.1/org.apache.felix.ipojo-1.12.1.jar:/Users/song-yeong-woo/.m2/repository/org/apache/felix/org.apache.felix.ipojo.metadata/1.6.0/org.apache.felix.ipojo.metadata-1.6.0.jar:/Users/song-yeong-woo/.m2/repository/org/ow2/asm/asm-all/5.0.2/asm-all-5.0.2.jar:/Users/song-yeong-woo/.m2/repository/org/apache/felix/org.apache.felix.ipojo.annotations/1.12.1/org.apache.felix.ipojo.annotations-1.12.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/song-yeong-woo"/>
     <property name="user.language" value="ko"/>
@@ -28,7 +28,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/song-yeong-woo/desktopfile/javaStudy/javaStudy/eclipse/maven-study/target/surefire/surefirebooter8530237551091720655.jar"/>
+    <property name="surefire.real.class.path" value="/Users/song-yeong-woo/desktopfile/javaStudy/javaStudy/eclipse/maven-study/target/surefire/surefirebooter-20220816220019414_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="18.0.2+0"/>
     <property name="user.name" value="song-yeong-woo"/>
